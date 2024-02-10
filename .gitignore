@@ -1,3 +1,5 @@
 .vscode
 
 *.o # ignore all files with the .o extension
+
+.DS_Store # ignore the .DS_Store file
