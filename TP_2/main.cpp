@@ -5,5 +5,7 @@ int main(int argc, char* argv[]){
     t.draw();
     Tree t2;
     t2.draw();
+    t.info();
+    t2.info();
     return 0;
 }
