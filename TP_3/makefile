@@ -8,4 +8,4 @@ pine.o: pine.cpp pine.h tree.h
 	g++ -c pine.cpp -Wall
 
 clean:
-	rm -f main.o tree.o pine.o
+	rm -f *.o main

@@ -3,8 +3,8 @@
 class Pine : public Tree {
     public:
         Pine();
-        ~Pine();
-        void draw();
-        void info();
+        virtual ~Pine();
+        virtual void draw();
+        virtual void info();
 
 };

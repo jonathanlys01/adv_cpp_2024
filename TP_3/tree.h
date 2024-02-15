@@ -9,9 +9,9 @@ class Tree {
     public :
         Tree();
         Tree(double h);
-        ~Tree();
-        void draw();
-        void info();
+        virtual ~Tree();
+        virtual void draw(); // polymorphic method
+        virtual void info();
         void setHeight(int height);
         void setEvergreen(bool evergreen);
         int getHeight();
