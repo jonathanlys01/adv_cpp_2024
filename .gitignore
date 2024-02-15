@@ -1,5 +1,16 @@
+# this will ignore all the executables as they don't have an extension
+
+# ignore all
+*
+
+# unignore all files with extensions
+!*.*
+
+# unignore all directories
+!*/
+
+# add other rules
+
 .vscode
-
 *.o # ignore all files with the .o extension
-
 .DS_Store # ignore the .DS_Store file
