@@ -39,6 +39,7 @@ Pine& Pine::operator=(const Pine& s) {
 	if (this != &s) { //prevent self-assignment
 		width = s.width;
 		height = s.height;
+		delete[] image;
 		// deep copy of the image
 		image = new Pixel[width * height];
 		memcpy(image, s.image, width * height * sizeof(Pixel));
